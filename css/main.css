@@ -1,0 +1,59 @@
+/* 메인 컨텐츠 main css */
+
+main {
+    width:970px;
+    text-align:center;
+
+
+}
+
+main #photo {
+
+    margin:10px 0 0 0;
+
+}
+
+main #input_text {
+    width:385px;
+    height:28px;
+    float:left;
+    font-size:19px;
+    font-weight:bold;
+    background-color:gray;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+main #input_text1 {
+    width:167px;
+    height:24px;
+    float:left;
+    font-size:13px;
+    margin-left:5px;
+    margin-bottom:3px;
+    background-color:gray;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+
+}
+
+main photo#input {
+    display:inline;
+}
+
+main #notice {
+
+    width:602px;
+    margin:0 auto;
+}
+
+main .book_image {
+
+}
+
+main #no1 {
+    margin-right:4px;
+    margin-left:2px;
+}

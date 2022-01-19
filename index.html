@@ -12,7 +12,12 @@
 <body>
     <div id="warp"><!-- 전체범위 레이아웃 wrap 시작 -->
         <header>
-            <a href="index.html"><img id="logo" src="img/logo.png"></a>
+            <div id="home_logo">
+                <a href="index.html"><img id="logo" src="img/logo.png"></a>
+            </div>
+            <div id="logo_text">
+                <span>Seoul Interior Design</span>
+            </div>
             <nav id="main_menu">
                 <ul>
                     <li><a href="board_list.html">메인</a></li>
@@ -27,25 +32,28 @@
                 </ul>
             </nav>
         </header><!-- header -->
-
+        <div class="clear"></div>
         <main>
-        <img src="img/main1.jpg">
-            <section id="photo">
-                <article id="notice"><!-- main1 시작 -->
-                    <div id="input">
-                        <div id="input_text">공간을 채우는 미니멀 디자인을 만나보세요</div>
-                        <div id="input_text1">예약하기 ></div>
-                    </div>
-                        <div class="clear"></div>
 
+            <section id="photo">
+                <article id="main1">
+                    <img src="img/main1.jpg" width="600">
+                </article>
+                <article id="notice">
+                    <div id="input_text">공간을 채우는 미니멀 디자인을 만나보세요</div>
+                    <div id="input_text1">예약하기 ></div>
+                </article>
+                <div class="clear"></div>
+                <article id="photo2">
                     <div class="latest_content">
-                        <img class="book_image" src="img/main3.jpg">
-                        <img class="book_image" src="img/main4.jpg">
+                        <img id="no1" class="book_image" src="img/main3.jpg" width="298" height="300">
+                        <img class="book_image" src="img/main4.jpg" width="296" height="300">
                     </div>
                 </article><!-- main1 끝 -->
             </section>
         </main><!-- main 끝-->
         <div class="clear"></div>
+
 
         <footer><!-- footer 시작 -->
             <ul id="address">
