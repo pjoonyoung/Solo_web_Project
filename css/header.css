@@ -1,0 +1,47 @@
+/** 상단관리 css **/
+header {
+    height:100px;
+    position:relative;
+}
+
+header #logo {
+    position:absolute;
+    top:10px;
+    left:20px;
+    width:40px
+}
+
+header #main_menu {
+    border-top:solid 1px #000000;
+    width:780px;
+    height:40px;
+    position:absolute;
+    top:220px;
+    left:210px;
+}
+
+header #main_menu li {
+    display:inline-block;
+    margin:10px 25px 0 25px;
+    font-size:18px;
+}
+
+header #main_menu a:link {
+    text-decoration:none;
+    color:#000000;
+}/* 하이퍼링크 적용된 텍스트가 흰색으로 표시되고 밑줄이 삭제 */
+
+header #main_menu a:hover {
+    text-decoration:none;
+    color:#000000;
+}/* 하이퍼링크 적용된 마우스포인터가 올라올때 텍스트가 노란색으로 표시 */
+
+header #main_menu a:visited {
+    text-decoration:none;
+    color:#000000;
+}/* 하이퍼링크 적용된 텍스트가 방문의 된 후 계속 흰색으로 표시 */
+
+header #main_menu a:active {
+    text-decoration:none;
+    color:#000000;
+}/* 하이퍼링크 적용된 텍스트가 클릭되었을때 순간 흰색으로 표시 */
